@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" async></script>   
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Создание аккаунта</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Имя</label>
+                <input type="text" placeholder="" id="username">
+                <small>Укажите имя</small>
+            </div>
+            
+            <div class="form-control">
+                <label>Фамилия</label>
+                <input type="text" placeholder="" id="usersurname">
+                <small>Укажите фамилию</small>
+            </div>
+            
+            <!-- <div class="form-control">
+                <label>Дата рождения</label>
+                <select name="day">
+                    <option></option>
+                </select>
+                <select name="month">
+                    <option></option>
+                </select>
+                <select name="year">
+                    <option></option>
+                </select>
+                <small>Укажите дату рождения</small>
+            </div> -->
+
+            <div class="form-control">
+                <label for="birthdate">Дата рождения</label>
+                <input type="date" id="birthdate" name="datestart" value="" min="1945-01-01" max="2021-12-31">
+                <small>Укажите дату рождения</small>
+            </div>              
+            
+            <!-- <div class="form-control">
+                <p><label class="radio-inline">Пол</label></p>
+                <label class="radio-inline"><input type="radio" name="sex" value="man" id="sex1" >Мужской</label>
+                <label class="radio-inline"><input type="radio" name="sex" value="man" id="sex2" >Женский</label>
+                <small>Укажите ваш пол</small>
+            </div> -->
+
+            <div class="form-control">
+                <label>Имя аккаунта</label>
+                <input type="text" placeholder="" id="account-name">                
+                <small>Укажите желаемое имя аккаунта</small>
+            </div>
+            
+            <div class="form-control">
+                <label>Пароль</label>
+                <input type="password" placeholder="" id="password">
+                <small>Укажите пароль</small>
+            </div>
+            <div class="form-control">
+                <label>Пароль ещё раз</label>
+                <input type="password" placeholder="" id="password2">
+                <small>Укажите пароль</small>
+            </div>
+            
+            <button>Создать</button>
+
+            <section>Нажимая «Создать», вы принимаете следующие <a href="https://www.wikipedia.org/" target="_blank">Условия использования.</a></section>
+            
+        </form>
+    </div>    
+</body>
+
+</html>
